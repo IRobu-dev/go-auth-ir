@@ -14,7 +14,7 @@ func Connect() {
 
 	if err != nil {
 		panic("Could not connect to the database!")
-	}else {
+	} else {
 		fmt.Println("Connected to DB ")
 	}
 
